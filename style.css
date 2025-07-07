@@ -1,0 +1,176 @@
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  body {
+    background-color: #0a0a0a;
+    color: #ffffff;
+    padding: 20px;
+  }
+
+  .topbar {
+    background-color: #1a1a1a;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    border-radius: 10px;
+    margin-bottom: 30px;
+  }
+
+  .menu-btn {
+    font-size: 24px;
+    color: #fff;
+    background: #1a1a1a;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+
+  .side-menu {
+    background: #111;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+  }
+
+  .side-title {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #00bcd4;
+  }
+
+  .info-box a {
+    display: block;
+    color: #5ddcff;
+    margin-bottom: 10px;
+    text-decoration: none;
+  }
+
+  .thanks {
+    font-size: 14px;
+    margin-top: 20px;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .plans {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .plan {
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  }
+
+  .plan h3 {
+    color: #00bcd4;
+    margin-bottom: 10px;
+  }
+
+  .plan ul {
+    margin-top: 10px;
+    padding-left: 20px;
+  }
+
+  .plan li {
+    line-height: 1.6;
+    font-size: 14px;
+  }
+
+  .price {
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 15px;
+    color: #00ff99;
+  }
+
+  .buy-text {
+    display: inline-block;
+    margin-top: 10px;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s ease;
+  }
+
+  .buy-text:hover {
+    background-color: #0056b3;
+  }
+
+  .desc {
+    background: #141414;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    color: #ddd;
+  }
+
+  .profile-wrapper {
+    background-color: #141414;
+    padding: 20px;
+    border-radius: 12px;
+    margin-top: 40px;
+    text-align: center;
+  }
+
+  .profile-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+  }
+
+  .link-buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+
+  .btn-link {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+  }
+
+  .btn-link img {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+  }
+
+  .footer {
+    margin-top: 50px;
+    text-align: center;
+    color: #888;
+    font-size: 13px;
+  }
+</style>
